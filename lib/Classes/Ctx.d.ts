@@ -1,8 +1,8 @@
 /// <reference types="node" />
 import { Collection } from "@discordjs/collection";
 import { ICollectorOptions, ICommandOptions, ICtx, ICtxOptions, ICtxSelf, IMessageInfo } from "../Common/Types";
-import makeWASocket, { AnyMessageContent, MiscMessageGenerationOptions } from "@whiskeysockets/baileys";
-import { WAProto } from "@whiskeysockets/baileys";
+import makeWASocket, { AnyMessageContent, MiscMessageGenerationOptions } from "baileys";
+import { WAProto } from "baileys";
 import { MessageCollector } from "./Collector/MessageCollector";
 export declare class Ctx implements ICtx {
     _used: {

@@ -1,6 +1,6 @@
 /// <reference types="node" />
-import makeWASocket from "@whiskeysockets/baileys";
-import { AuthenticationState } from "@whiskeysockets/baileys/lib/Types";
+import makeWASocket from "baileys";
+import { AuthenticationState } from "baileys/lib/Types";
 import EventEmitter from "events";
 import { Collection } from "@discordjs/collection";
 import { IClientOptions, ICommandOptions, IMessageInfo } from "../Common/Types";

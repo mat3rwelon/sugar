@@ -497,7 +497,7 @@ ctx.getDevice() // get the user device
 /* check whether the chat is a group */
 ctx.isGroup()
 
-/* accessing @whiskeysockets/baileys objects */
+/* accessing baileys objects */
 bot.core
 ctx._client
 ```

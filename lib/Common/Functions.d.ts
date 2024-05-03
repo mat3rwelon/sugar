@@ -1,4 +1,4 @@
-import makeWASocket, { proto } from "@whiskeysockets/baileys";
+import makeWASocket, { proto } from "baileys";
 import fs from "fs";
 export declare const arrayMove: (arr: undefined[], old_index: number, new_index: number) => undefined[];
 export declare const getContentFromMsg: (msg: {

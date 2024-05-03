@@ -1,6 +1,6 @@
 import { Collection } from "@discordjs/collection";
 import { Ctx } from "../Classes/Ctx";
-import makeWASocket, { WAProto } from "@whiskeysockets/baileys";
+import makeWASocket, { WAProto } from "baileys";
 import { Client } from "../Classes/Client";
 export interface IClientOptions {
     name: string;
