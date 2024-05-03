@@ -1,0 +1,9 @@
+export declare const download: (object: object, type: string) => Buffer;
+export declare const toJID: (number: string) => string;
+export declare const toNumber: (jid: string) => string;
+export declare const logg: (o: Array) => undefined;
+export declare const isGroup: (jid: string) => boolean;
+export declare const Msg: (flx: object) => object;
+export declare const Sender: (flx: object) => object;
+export declare const serialize: (f: object, m: object) => object;
+//# sourceMappingURL=Simple.d.ts.map
