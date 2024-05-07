@@ -1,8 +1,23 @@
+## Disclaimer
+This is copy of [@mengkodingan/ckptw](https://github.com/Mengkodingan/ckptw) with some of this additional functions and classes:
+
+# Functions
+- > Client.launchPairing(number: string) // to launch bot with pair code
+- > Ctx.groupData() // to get group metadata
+- > Ctx.sendMsg(text: string, jid: string, content: object, options: object)
+- > Ctx.sendImage(jid: string, image: string|object, caption: string, content: object, options: object)
+- > Ctx.sendVideo(jid: string, video: string|object, caption: string, content: object, options: object)
+- > Ctx.sendAudio(jid: string, audio: string|object, vn: boolean, content: object, options: object)
+- > Ctx.sendVn(jid: string, audio: string|object, content: object, options: object)
+- > Ctx.sendDocument(jid: string, file: string|object, caption: string, fileName: string, mimetype: string, content: object, options: object)
+- > Ctx.sendFile(jid: string, file: string|object, caption: string, content: object, options: object) // accept all file type
+
+# Classes
+- Simple
+
 # sugar
 
 An easy way to make a WhatsApp Bot 
-## Disclaimer
-This is copy of [@mengkodingan/ckptw](https://github.com/Mengkodingan/ckptw) with some modification.
 
 - **✨ Effortless**
 - **🧱 Builder**

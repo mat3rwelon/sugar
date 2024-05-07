@@ -1,6 +1,6 @@
 {
 	"name": "@materwelon/sugar",
-	"version": "4.5.7",
+	"version": "4.5.701",
 	"description": "An easy way to make a WhatsApp Bot (Original: @mengkodingan/ckptw).",
 	"main": "lib/index.js",
 	"repository": {
