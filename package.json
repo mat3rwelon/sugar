@@ -1,6 +1,6 @@
 {
 	"name": "@materwelon/sugar",
-	"version": "3.5.302",
+	"version": "4.5.7",
 	"description": "An easy way to make a WhatsApp Bot (Original: @mengkodingan/ckptw).",
 	"main": "lib/index.js",
 	"repository": {
@@ -33,7 +33,9 @@
 	"dependencies": {
 		"@discordjs/collection": "^1.4.0",
 		"@hapi/boom": "^10.0.1",
+		"axios": "^1.6.8",
 		"baileys": "^6.7.1",
+		"file-type": "^16.5.4",
 		"form-data": "^4.0.0",
 		"imgbb-uploader": "^1.5.1",
 		"node-cache": "^5.1.2",

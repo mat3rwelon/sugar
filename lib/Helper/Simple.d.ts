@@ -6,4 +6,5 @@ export declare const isGroup: (jid: string) => boolean;
 export declare const Msg: (flx: object) => object;
 export declare const Sender: (flx: object) => object;
 export declare const serialize: (f: object, m: object) => object;
+export declare const getBuffer: (url: string, options: object) => Buffer;
 //# sourceMappingURL=Simple.d.ts.map

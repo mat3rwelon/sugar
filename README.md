@@ -1,6 +1,8 @@
 # sugar
 
-An easy way to make a WhatsApp Bot (Copy of @mengkodingan/ckptw).
+An easy way to make a WhatsApp Bot 
+## Disclaimer
+This is copy of [@mengkodingan/ckptw](https://github.com/Mengkodingan/ckptw) with some modification.
 
 - **✨ Effortless**
 - **🧱 Builder**
