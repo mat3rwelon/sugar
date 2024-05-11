@@ -1,3 +1,11 @@
+export declare const convertMsToDuration: (ms: number) => string;
+export declare const getImageLink: (buffer: Buffer, apiKey: string) => object;
+export declare const getImageLinkV2: (buffer: Buffer) => string;
+export declare const telegraph: (buffer: Buffer) => string;
+export declare const formatSize: (bytes: number) => string;
+export declare const isCmd: (m: object, ctx: object) => boolean;
+export declare const isAdmin: (ctx: object) => number;
+export declare const isAdminOf: (ctx: object) => number;
 export declare const download: (object: object, type: string) => Buffer;
 export declare const toJID: (number: string) => string;
 export declare const toNumber: (jid: string) => string;
